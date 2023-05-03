@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>{if condition="$maccms.seo.website.name neq ''"}{$maccms.seo.website.name}{else}{$maccms.site_name}{/if}</title>
+    <meta name="keywords" content="{$maccms.site_keywords}" />
+    <meta name="description" content="{$maccms.site_description}" />
+     {include file="public/include"}
+</head>
+<body class="homepage">
+    
+ {include file="public/head"}       <!-- 头部 -->
+	     
+<main id="index-main" class="wrapper">
+	<div class="content">
+	    
+	     {include file="index/slide"}	 <!-- 轮播 -->
+	    
+	     {include file="index/hot"}	 <!-- 正在热播 -->
+	     
+	     {include file="index/list"} <!-- 列表 -->
+	     
+	     {include file="index/new"} <!-- 最新影片 -->
+	     
+	</div>
+</main>
+         {include file="index/links"} <!-- 友情链接 -->
+
+         {include file="public/foot"} <!-- 底部-->
+</body>
+</html>
