@@ -4,7 +4,7 @@
 ## docker
 
 ```sh
-docker run - itd --name maccms --restart always -v /mnt/docker/maccms:/data -p 8088:8088 bigowen/maccms
+docker run -itd --name maccms --restart always -v /mnt/docker/maccms:/data -p 8088:8088 bigowen/maccms
 ```
 
 管理后台 `http://127.0.0.1:8088/admin.php` 用户名密码 `admin` / `admin`
