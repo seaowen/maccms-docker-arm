@@ -1,7 +1,6 @@
 # maccms
 
-基于MACCMSv10版本修改 采用Sqlite3数据库 支持docker一键部署，仅供学习用途，请勿公网搭建。
-
+基于MACCMSv10版本修改 采用Sqlite3数据库 支持docker一键部署，仅供学习用途，请勿公网搭建，自带类似于影视先生的模板。
 ## docker
 
 ```sh
